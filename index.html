@@ -27,18 +27,18 @@
 
      <!-- INTRODUCTION -->
       <div class="intro">
-        Humans do not only communicate using language; gesture is just as universal to us as a species,
+        <p>Humans do not only communicate using language; gesture is just as universal to us as a species,
         and gesture and language go hand in hand (Abner et al., 2015, p. 437). Despite this, gestures
         are often omitted from discussions about communication (Abner et al., 2015, p. 437). In this
         essay, I will provide an overview of different types of gestures used in speech and social
         interaction. I will illustrate the differences between different types of gestures with
         the help of interactive examples that will show how each type is distinct
-        from the others.<br><br>
+        from the others.</p>
 
-        As the title states, this is a <strong>multimodal</strong> essay, but what exactly does this mean?
+        <p>As the title states, this is a <strong>multimodal</strong> essay, but what exactly does this mean?
         Furthermore, what is meant by the term <strong>gesture</strong> in the first place? Before we discuss
         different types of gestures, it is important to first establish what is meant by these two
-        key concepts.
+        key concepts.</p>
       </div>
 
   <div class="container-fluid">                 <!-- DEFINITIONS -->
@@ -100,7 +100,7 @@
         <!-- INTERACTIVE DEMONSTRATION OF GESTURE TYPES -->
               <div class="continue">
                   <h1>What do gestures look like?</h1>
-                  <h2>Observe the following images</h2>
+                  <h2>Observe the gestures in the following images</h2>
                   <small>(click anywhere on the images)</small>
               </div>
 
@@ -120,7 +120,7 @@
                                   <!-- EXPLAIN WHAT THESE CATEGORIES ARE-->
               <div class="onward">
 
-                Here, the gestures have been labelled 1. <strong>interactive</strong> and
+                <p>Here, the gestures have been labelled 1. <strong>interactive</strong> and
                 2. <strong>representational</strong>. This is because one way of classifying
                 gestures is according to their <u>function</u> in communication
                 (Abner et al., 2015, p. 438).
@@ -135,10 +135,100 @@
                 The latter term, on the other hand, is used for gestures that
                 communicate something about the topic or primary content of the
                 utterance (Abner et al., 2015, p. 438). This can be, for example,
-                pointing to objects or locations as in (2).
+                pointing to objects or locations as in (2).</p>
 
+                <p>The gestures that have just been illustrated are, as one can
+                  imagine, only two examples of the vast number of gestures
+                  that speakers and hearers use when communicating. In fact,
+                <strong>representational</strong> gestures can be further split up
+              into categories that describe how they "mean" in different ways (Abner et al.,
+              2015, p. 439). In the following section, <u>four</u> different types of
+              <strong>representational</strong> gestures will be illustrated.</p>
               </div>
 
+              <div class="continue">                            <!-- EXPLORE REPRESENTATIONAL GESTURES -->
+                  <h1>Types of representational gestures</h1>
+                  <h2>Observe the gestures in the following images</h2>
+                  <small>(click anywhere on the images)</small>
+              </div>
+
+            <!--  <div class="container-fluid demo">
+                <div class="row">
+                        <div class="col-sm-3 grid">
+                            <div class="item deictic" id="rep1"></div>
+                        </div>
+
+                        <div class="col-sm-3 grid">
+                            <div class="item iconic" id="rep2"></div>
+                        </div>
+
+                        <div class="col-sm-3 grid">
+                            <div class="item metaphoric" id="rep3"></div>
+                        </div>
+
+                        <div class="col-sm-3 grid">
+                            <div class="item emblem" id="rep4"></div>
+                        </div>
+
+              </div></div>
+
+
+            <div class="representationals" id="deictic"><div class="inside">
+              Deictic gestures
+            </div></div>
+
+            <div class="representationals" id="iconic">
+              Iconic gestures
+            </div>
+
+            <div class="representationals" id="metaphoric">
+              Metaphoric gestures
+            </div>
+
+            <div class="representationals" id="emblematic">
+              Emblematic gestures
+            </div> -->
+
+
+
+            <div class="container-fluid repre">                 <!-- DEFINITIONS -->
+                    <div class="row">
+                        <div class="col-md-6 box2" id="card3">
+                                  <div class="front three"></div>
+
+                                  <div class="back three">
+                                    Hello
+                                  </div>
+                            </div>
+
+                        <div class="col-md-6 box2" id="card4">
+                                <div class="front four"></div>
+
+                                <div class="back four">
+                                  Hello
+                                </div>
+                        </div>
+                    </div></div>
+
+                    <div class="container-fluid repre2"> 
+                    <div class="row">
+                        <div class="col-md-6 box2" id="card5">
+                                  <div class="front five"></div>
+
+                                  <div class="back five">
+                                    Hello
+                                  </div>
+                            </div>
+
+                        <div class="col-md-6 box2" id="card6">
+                                <div class="front six"></div>
+
+                                <div class="back six">
+                                  Hello
+                                </div>
+                        </div>
+                    </div>
+                  </div>
 
         <div class="references">            <!-- ESSAY REFERENCES -->
           <h4>References</h4>
@@ -163,6 +253,11 @@
 $("#card").flip({axis: 'x'});
 $("#card2").flip({axis: 'x'});
 
+$("#card3").flip({axis: 'x'});
+$("#card4").flip({axis: 'x'});
+$("#card5").flip({axis: 'x'});
+$("#card6").flip({axis: 'x'});
+
 $(document).ready(function(){
        $("div#clickme1").one('click', function() {
            $("div#reveal1").fadeToggle('slow');
@@ -176,6 +271,8 @@ $(document).ready(function(){
               $("div#clickme2").css("z-index", "-99");
           });
       });
+
+
 </script>
 
 </body>

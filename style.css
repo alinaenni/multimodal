@@ -253,6 +253,138 @@ small {
   text-align: justify;
   line-height: 40px;
 }
+.demo {
+  background-image:url('papy.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 260px;
+  padding: 5vh;
+  width: 100%;
+}
+.item {
+  background-color: rgba(255,255,255,0.7);
+  box-sizing: border-box;
+  padding-bottom: 100%;
+  min-height: 5vh;
+  color: #3d3a3c;
+  font-family: 'Neuton', serif;
+  font-size: 20px;
+}
+.repre {
+  background-color: #fff;
+  background-size: 230px;
+  padding: 0 10vw 0 10vw;
+  margin-top: 3vh;
+}
+.repre2 {
+  background-color: #fff;
+  background-size: 230px;
+  padding: 0 10vw 0 10vw;
+  margin-top: -24px;
+  margin-bottom: 7vh;
+}
+.box2 {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 60vh;
+  text-align: justify;
+}
+#card3 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+#card4 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 00px;
+  margin: 0px;
+}
+#card5 {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#card6 {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.front.three {
+  background-image:url('deictic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: 'Neuton', serif;
+  font-size: 40px;
+  text-align: center;
+  border: 15px solid #e9ede4;
+}
+.back.three {
+  background-image:url('one.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 230px;
+  width: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.front.four {
+  background-image:url('iconic.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: 'Neuton', serif;
+  font-size: 40px;
+  text-align: center;
+  border: 15px solid #ede4ed;
+}
+.back.four {
+  background-image:url('one.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 230px;
+  width: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.front.five {
+  background-image:url('metaphoric.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+  border: 15px solid #ede4ed;
+}
+.back.five {
+  background-image:url('one.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 230px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.front.six {
+  background-image:url('emblem.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+  border: 15px solid #e9ede4;
+}
+.back.six {
+  background-image:url('one.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 230px;
+  width: 100%;
+  box-sizing: border-box;
+}
 .references {
   background-color: #ede4ed;
   width: 100%;
