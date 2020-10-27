@@ -317,10 +317,6 @@ small {
   background-size: cover;
   background-position: bottom;
   box-sizing: border-box;
-  padding: 0px;
-  font-family: 'Neuton', serif;
-  font-size: 40px;
-  text-align: center;
   border: 15px solid #e9ede4;
 }
 .back.three {
@@ -329,18 +325,18 @@ small {
   background-attachment: fixed;
   background-size: 230px;
   width: 100%;
-  margin: 0px;
   box-sizing: border-box;
+  padding: 30px;
+  font-family: 'Neuton', serif;
+  font-size: 18px;
 }
 .front.four {
   background-image:url('iconic.jpg');
   background-repeat: repeat;
   background-size: cover;
+  background-position: top;
   margin: 0px;
   box-sizing: border-box;
-  padding: 0px;
-  font-family: 'Neuton', serif;
-  font-size: 40px;
   text-align: center;
   border: 15px solid #ede4ed;
 }
@@ -351,12 +347,16 @@ small {
   background-size: 230px;
   width: 100%;
   margin: 0px;
+  padding: 30px;
+  font-family: 'Neuton', serif;
+  font-size: 18px;
   box-sizing: border-box;
 }
 .front.five {
   background-image:url('metaphoric.jpg');
   background-repeat: repeat;
   background-size: cover;
+  background-position: center;
   width: 100%;
   box-sizing: border-box;
   border: 15px solid #ede4ed;
@@ -367,12 +367,16 @@ small {
   background-attachment: fixed;
   background-size: 230px;
   width: 100%;
+  padding: 30px;
+  font-family: 'Neuton', serif;
+  font-size: 18px;
   box-sizing: border-box;
 }
 .front.six {
   background-image:url('emblem.jpg');
   background-repeat: repeat;
   background-size: cover;
+  background-position: center;
   width: 100%;
   box-sizing: border-box;
   border: 15px solid #e9ede4;
@@ -383,6 +387,9 @@ small {
   background-attachment: fixed;
   background-size: 230px;
   width: 100%;
+  padding: 30px;
+  font-family: 'Neuton', serif;
+  font-size: 18px;
   box-sizing: border-box;
 }
 .references {
