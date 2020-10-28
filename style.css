@@ -288,6 +288,14 @@ small {
   width: 100%;
   min-height: 60vh;
   text-align: justify;
+  line-height: 32px;
+}
+.box2 h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #564b57;
+  font-family: 'Neuton', serif;
 }
 #card3 {
   width: 100%;
@@ -331,10 +339,10 @@ small {
   font-size: 18px;
 }
 .front.four {
-  background-image:url('iconic.jpg');
+  background-image:url('show.jpg');
   background-repeat: repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   margin: 0px;
   box-sizing: border-box;
   text-align: center;
@@ -359,7 +367,7 @@ small {
   background-position: center;
   width: 100%;
   box-sizing: border-box;
-  border: 15px solid #ede4ed;
+  border: 15px solid #fff4d6;
 }
 .back.five {
   background-image:url('one.png');
@@ -379,7 +387,7 @@ small {
   background-position: center;
   width: 100%;
   box-sizing: border-box;
-  border: 15px solid #e9ede4;
+  border: 15px solid #dce8fc;
 }
 .back.six {
   background-image:url('one.png');
@@ -391,6 +399,39 @@ small {
   font-family: 'Neuton', serif;
   font-size: 18px;
   box-sizing: border-box;
+}
+.all {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15vh;
+  background-image:url('papy.png');
+  background-repeat: repeat;
+  background-size: 230px;
+  color: #c6adcc;
+  font-family: 'Neuton', serif;
+  text-align: center;
+  font-size: 32px;
+}
+.nope {
+  width: 100%;
+  box-sizing: border-box;
+  background-image:url('no.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+.further {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5vh;
+  background-color: #fff;
+  background-image:url('one.png');
+  background-repeat: repeat;
+  background-size: 230px;
+  color: #c6adcc;
+  font-family: 'Neuton', serif;
+  font-size: 24px;
 }
 .references {
   background-color: #ede4ed;
