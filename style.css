@@ -41,7 +41,7 @@ h3 {
   margin-bottom: 80px;
   font-size: 26px;
   letter-spacing: 0px;
-  color: #c6adcc;
+  color: #b39bd4;
 }
 h4 {
   font-family: 'Neuton', serif;
@@ -256,7 +256,7 @@ small {
   width: 100%;
   padding: 60px 90px 60px 90px;
   font-family: 'Neuton', serif;
-  font-size: 20px;
+  font-size: 22px;
   text-align: justify;
   line-height: 40px;
 }
@@ -430,6 +430,47 @@ small {
   line-height: 38px;
   min-height: 50vh;
 }
+.nope h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #597357;
+}
+.unite {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7vw;
+  background-color: #dce8fc;
+  font-family: 'Neuton', serif;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: justify;
+}
+.unite ol {
+  text-align: justify;
+  background-color: rgba(237, 244, 255, 0.8);
+  padding: 0.5vw 2vw 0.8vw 2vw;
+  border-left: 3px solid #849dc4;
+  line-height: 39px;
+}
+.conclusion {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8vw;
+  background-color: #edf4ff;
+  font-family: 'Neuton', serif;
+  font-size: 24px;
+  color: #556680;
+  line-height: 38px;
+  text-align: center;
+}
+.hands {
+  width: 100%;
+  height: 50vh;
+  background-image:url('hands.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .references {
   background-color: #ede4ed;
   width: 100%;
@@ -438,14 +479,52 @@ small {
   text-align: justify;
   font-family: 'Neuton', serif;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 29px;
+}
+.references h4 {
+  margin-bottom: 15px;
 }
 footer {
   background-color: #fff;
   width: 100%;
   text-align: center;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 25px;
   font-family: 'Neuton', serif;
   font-size: 16px;
+  line-height: 30px;
+  color: #3d3a3c;
+}
+footer a {
+  color: #597357;
+}
+footer a:hover {
+  color: #597357;
+  text-decoration: none;
+}
+@media only screen and (max-width: 992px) {
+  .front.one h1 { font-size: 4.3vw; }
+  .front.two h1 { font-size: 4.3vw; }
+  .front h3 { font-size: 3vw; }
+  .front.one { padding: 50vh 0px 0px 0px; }
+  .front.two { padding: 50vh 0px 0px 0px; }
+  .back.one ol { padding: 2vw 2vw 2vw 5vw; }
+  .unite ol { padding: 0.5vw 2vw 0.8vw 5vw; line-height: 35px; }
+  .intro { padding: 30px 50px 30px 50px; font-size: 20px; line-height: 38px; }
+  .onward { padding: 40px 60px 40px 60px; font-size: 20px; line-height: 38px; }
+  .all { font-size: 30px; }
+  .nope { padding: 6vh; font-size: 21px; line-height: 35px; }
+  .unite { padding: 7vw; font-size: 20px; line-height: 34px; }
+  .conclusion { padding: 8vw; font-size: 22px; line-height: 34px; }
+}
+@media only screen and (max-width: 768px) {
+  .front.one { padding: 30vh 0px 0px 0px; }
+  .front.two { padding: 30vh 0px 0px 0px; }
+}
+@media only screen and (max-width: 500px) {
+  .front.one { padding: 50vh 0px 0px 0px; }
+  .front.two { padding: 50vh 0px 0px 0px; }
+  .front.one h1 { font-size: 7vw; }
+  .front.two h1 { font-size: 7vw; }
+  .front h3 { font-size: 5vw; }
 }
