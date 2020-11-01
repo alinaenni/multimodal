@@ -500,7 +500,6 @@ footer a:hover {
   .front.six { background-position: left; }
 }
 @media only screen and (max-width: 768px) {
-  .box { height: 110vh; }
   .front.one h1 { font-size: 6vw; }
   .front.two h1 { font-size: 6vw; }
   .front h3 { font-size: 4.5vw; }
@@ -513,4 +512,5 @@ footer a:hover {
   .front h3 { font-size: 5vw; }
   .box { height: auto; }
   .box2 { height: auto;}
+  header { background-position: right; }
 }
