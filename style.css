@@ -504,13 +504,13 @@ footer a:hover {
   .front.one h1 { font-size: 6vw; }
   .front.two h1 { font-size: 6vw; }
   .front h3 { font-size: 4.5vw; }
-  .box { height: 105vh; }
+  .box { height: auto; }
   .box2 { height: auto;}
 }
 @media only screen and (max-width: 767px) {
   .front.one h1 { font-size: 7vw; }
   .front.two h1 { font-size: 7vw; }
   .front h3 { font-size: 5vw; }
-  .box { height: 105vh; }
+  .box { height: auto; }
   .box2 { height: auto;}
 }
