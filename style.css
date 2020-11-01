@@ -5,6 +5,7 @@ strong {
   color: #a374a8;
 }
 header {
+  display: flex;
   background-image:url('anna1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +16,6 @@ header {
   margin-top: 0px;
   text-align: center;
   box-sizing: border-box;
-  padding: 33vh 0 0 0;
   color: #000;
 }
 h1 {
