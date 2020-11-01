@@ -111,7 +111,6 @@ h4 {
 .front.one {
   background-image:url('papy.png');
   background-repeat: repeat;
-  background-attachment: fixed;
   background-size: 260px;
   width: 100%;
   margin: 0px;
@@ -124,7 +123,6 @@ h4 {
 .back.one {
   background-image:url('one.png');
   background-repeat: repeat;
-  background-attachment: fixed;
   background-size: 230px;
   width: 100%;
   margin: 0px;
@@ -146,7 +144,6 @@ h4 {
 .front.two {
   background-image:url('one.png');
   background-repeat: repeat;
-  background-attachment: fixed;
   background-size: 230px;
   width: 100%;
   margin: 0px;
@@ -159,7 +156,6 @@ h4 {
 .back.two {
   background-image:url('papy.png');
   background-repeat: repeat;
-  background-attachment: fixed;
   background-size: 260px;
   width: 100%;
   margin: 0px;
@@ -203,7 +199,6 @@ small {
 .wide1 {
   background-image:url('interactive.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
   background-size: cover;
   background-position: top;
   height: 100vh;
@@ -216,7 +211,6 @@ small {
 .image1 {
   background-image:url('interactive2.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
   background-size: cover;
   background-position: top;
   height: 100vh;
@@ -231,7 +225,6 @@ small {
 .wide2 {
   background-image:url('representational.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
   background-size: cover;
   background-position: top;
   height: 100vh;
@@ -244,7 +237,6 @@ small {
 .image2 {
   background-image:url('representational2.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
   background-size: cover;
   background-position: top;
   height: 100vh;
@@ -259,14 +251,6 @@ small {
   font-size: 22px;
   text-align: justify;
   line-height: 40px;
-}
-.demo {
-  background-image:url('papy.png');
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: 260px;
-  padding: 5vh;
-  width: 100%;
 }
 .item {
   background-color: rgba(255,255,255,0.7);
@@ -337,7 +321,6 @@ small {
 .back.three {
   background-image:url('one.png');
   background-repeat: repeat;
-  background-attachment: fixed;
   background-size: 230px;
   width: 100%;
   box-sizing: border-box;
@@ -358,7 +341,6 @@ small {
 .back.four {
   background-image:url('one.png');
   background-repeat: repeat;
-  background-attachment: fixed;
   background-size: 230px;
   width: 100%;
   margin: 0px;
@@ -379,7 +361,6 @@ small {
 .back.five {
   background-image:url('one.png');
   background-repeat: repeat;
-  background-attachment: fixed;
   background-size: 230px;
   width: 100%;
   padding: 30px;
@@ -399,7 +380,6 @@ small {
 .back.six {
   background-image:url('one.png');
   background-repeat: repeat;
-  background-attachment: fixed;
   background-size: 230px;
   width: 100%;
   padding: 30px;

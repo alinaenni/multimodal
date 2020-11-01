@@ -347,34 +347,29 @@
           <br>
           Website and content by (exam number) B118498<br>
         </footer>
-
                                             <!-- SCRIPTS -->
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 <script>
-$("#card").flip({axis: 'x'});
-$("#card2").flip({axis: 'x'});
-
-$("#card3").flip({axis: 'y'});
-$("#card4").flip({axis: 'y'});
-$("#card5").flip({axis: 'y'});
-$("#card6").flip({axis: 'y'});
-
 $(document).ready(function(){
+  
+  $("#card").flip({axis: 'x'});
+  $("#card2").flip({axis: 'x'});
+  $("#card3").flip({axis: 'y'});
+  $("#card4").flip({axis: 'y'});
+  $("#card5").flip({axis: 'y'});
+  $("#card6").flip({axis: 'y'});
+
        $("div#clickme1").one('click', function() {
            $("div#reveal1").fadeToggle('slow');
            $("div#clickme1").css("z-index", "-99");
        });
+
+       $("div#clickme2").one('click', function() {
+           $("div#reveal2").fadeToggle('slow');
+           $("div#clickme2").css("z-index", "-99");
+       });
     });
-
-$(document).ready(function(){
-          $("div#clickme2").one('click', function() {
-              $("div#reveal2").fadeToggle('slow');
-              $("div#clickme2").css("z-index", "-99");
-          });
-      });
-
-
 </script>
 
 </body>
