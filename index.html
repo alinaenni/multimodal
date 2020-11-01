@@ -45,8 +45,12 @@
           <div class="row">
               <div class="col-md-6 box" id="card">
                         <div class="front one">
+
+                        <span class="text align-self-center">
                         <h1>What is multimodality?</h1>
                         <h3>(click me)</h3>
+                        </span>
+
                         </div>
 
                         <div class="back one">
@@ -70,8 +74,9 @@
 
               <div class="col-md-6 box" id="card2">
                       <div class="front two">
-                      <h1>What are gestures?</h1>
-                      <h3>(click me)</h3>
+                        <span class="text align-self-center">
+                          <h1>What are gestures?</h1>
+                          <h3>(click me)</h3></span>
                       </div>
 
                       <div class="back two">
@@ -365,7 +370,7 @@ $(document).ready(function(){
            $("div#reveal2").fadeToggle('slow');
            $("div#clickme2").css("z-index", "-99");
        });
-       
+
        $("#card3").flip({axis: 'y'});
        $("#card4").flip({axis: 'y'});
        $("#card5").flip({axis: 'y'});

@@ -71,7 +71,7 @@ h4 {
 .box {
   box-sizing: border-box;
   width: 100%;
-  height: 80vh;
+  height: auto;
   text-align: justify;
 }
 #card {
@@ -91,13 +91,13 @@ h4 {
   cursor: pointer;
 }
 .front.one h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 2.6vw;
   font-weight: normal;
   color: #bdbdbd;
 }
 .front.two h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 2.6vw;
   font-weight: normal;
   color: #3d3a3c;
@@ -108,17 +108,21 @@ h4 {
   color: #719184;
   text-transform: none;
 }
+.text {
+  width: 100%;
+  text-align: center;
+}
 .front.one {
+  display: flex;
   background-image:url('papy.png');
   background-repeat: repeat;
   background-size: 260px;
   width: 100%;
   margin: 0px;
   box-sizing: border-box;
-  padding: 32vh 0px 0px 0px;
+  padding: 0 0 0 0;
   font-family: 'Neuton', serif;
   font-size: 40px;
-  text-align: center;
 }
 .back.one {
   background-image:url('one.png');
@@ -142,16 +146,16 @@ h4 {
   line-height: 39px;
 }
 .front.two {
+  display: flex;
   background-image:url('one.png');
   background-repeat: repeat;
   background-size: 230px;
   width: 100%;
   margin: 0px;
   box-sizing: border-box;
-  padding: 32vh 0px 0px 0px;
+  padding: 0px;
   font-family: 'Neuton', serif;
   font-size: 40px;
-  text-align: center;
 }
 .back.two {
   background-image:url('papy.png');
@@ -279,7 +283,7 @@ small {
   width: 100%;
   text-align: justify;
   line-height: 32px;
-  height: 60vh;
+  height: 70vh;
 }
 .box2 h1 {
   font-size: 24px;
@@ -486,8 +490,6 @@ footer a:hover {
   .front.one h1 { font-size: 4.3vw; }
   .front.two h1 { font-size: 4.3vw; }
   .front h3 { font-size: 3vw; }
-  .front.one { padding: 50vh 0px 0px 0px; }
-  .front.two { padding: 50vh 0px 0px 0px; }
   .back.one ol { padding: 2vw 2vw 2vw 5vw; }
   .unite ol { padding: 0.5vw 2vw 0.8vw 5vw; line-height: 35px; }
   .intro { padding: 30px 50px 30px 50px; font-size: 20px; line-height: 38px; }
@@ -498,13 +500,17 @@ footer a:hover {
   .conclusion { padding: 8vw; font-size: 22px; line-height: 34px; }
 }
 @media only screen and (max-width: 768px) {
-  .front.one { padding: 30vh 0px 0px 0px; }
-  .front.two { padding: 30vh 0px 0px 0px; }
+  .box { height: 110vh; }
+  .front.one h1 { font-size: 6vw; }
+  .front.two h1 { font-size: 6vw; }
+  .front h3 { font-size: 4.5vw; }
+  .box { height: 105vh; }
+  .box2 { height: auto;}
 }
-@media only screen and (max-width: 500px) {
-  .front.one { padding: 40vh 0px 0px 0px; }
-  .front.two { padding: 40vh 0px 0px 0px; }
+@media only screen and (max-width: 767px) {
   .front.one h1 { font-size: 7vw; }
   .front.two h1 { font-size: 7vw; }
   .front h3 { font-size: 5vw; }
+  .box { height: 105vh; }
+  .box2 { height: auto;}
 }
