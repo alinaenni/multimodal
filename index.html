@@ -352,13 +352,9 @@
 <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 <script>
 $(document).ready(function(){
-  
+
   $("#card").flip({axis: 'x'});
   $("#card2").flip({axis: 'x'});
-  $("#card3").flip({axis: 'y'});
-  $("#card4").flip({axis: 'y'});
-  $("#card5").flip({axis: 'y'});
-  $("#card6").flip({axis: 'y'});
 
        $("div#clickme1").one('click', function() {
            $("div#reveal1").fadeToggle('slow');
@@ -369,6 +365,11 @@ $(document).ready(function(){
            $("div#reveal2").fadeToggle('slow');
            $("div#clickme2").css("z-index", "-99");
        });
+       
+       $("#card3").flip({axis: 'y'});
+       $("#card4").flip({axis: 'y'});
+       $("#card5").flip({axis: 'y'});
+       $("#card6").flip({axis: 'y'});
     });
 </script>
 
