@@ -522,8 +522,8 @@ footer a:hover {
   .front.two { padding: 30vh 0px 0px 0px; }
 }
 @media only screen and (max-width: 500px) {
-  .front.one { padding: 50vh 0px 0px 0px; }
-  .front.two { padding: 50vh 0px 0px 0px; }
+  .front.one { padding: 40vh 0px 0px 0px; }
+  .front.two { padding: 40vh 0px 0px 0px; }
   .front.one h1 { font-size: 7vw; }
   .front.two h1 { font-size: 7vw; }
   .front h3 { font-size: 5vw; }
