@@ -71,7 +71,7 @@ h4 {
 .box {
   box-sizing: border-box;
   width: 100%;
-  min-height: 70vh;
+  height: 80vh;
   text-align: justify;
 }
 #card {
@@ -277,9 +277,9 @@ small {
 .box2 {
   box-sizing: border-box;
   width: 100%;
-  min-height: 60vh;
   text-align: justify;
   line-height: 32px;
+  height: 60vh;
 }
 .box2 h1 {
   font-size: 24px;
@@ -297,7 +297,7 @@ small {
 #card4 {
   width: 100%;
   box-sizing: border-box;
-  padding: 00px;
+  padding: 0px;
   margin: 0px;
 }
 #card5 {
